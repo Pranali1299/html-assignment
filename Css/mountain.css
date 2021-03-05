@@ -72,21 +72,20 @@ p{
     margin-right: 200px;
 }
 #img1{
-	width: 280px;
-	height: 292px;
+	width: 279px;
+	height: 293px;
 }
 #img2{
 	width: 562px;
-	height: 292px;
+	height: 293px;
 }
 #img3,#img4,#img5{
-	width: 280px;
-	height: 292px;
+	width: 279px;
+	height: 293px;
 }
 #img5{
-	width: 280px;
-	height: 292px;
-	float:right;
+	width: 279px;
+	height: 293px;
 }
 .testimonial h2{
 	color: #3693D6;
