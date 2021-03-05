@@ -1,0 +1,107 @@
+
+#banner{
+	background-image:url("C:/Users/J P/Documents/Cuelogic/images/hero_image.png"); 
+	height:657px;
+}
+nav{
+	height:136px;
+	font-size: 22px;
+	text-align: right;
+	font-family: "Montserrat",sans-serif;
+	padding: 30px 30px 0px 30px;
+}
+#img_logo{
+	float:left;
+}
+ul li{
+	display: inline-block;
+	width:10%;
+	text-align: center;
+	color: #FFFFFF;
+}
+#small_btn{
+	height: 54px;
+	font-size: 22px;
+	color: #3693D6;
+}
+#large_btn{
+	height: 68px;
+	font-size: 25px;
+	color: #FFFFFF;
+	background-color:#3693D6;
+	width: 12%;
+	font-family: "Montserrat",sans-serif;
+	float:right;
+	margin-top:25%;
+}
+button{
+	border-radius: 45px;
+	border: none;
+	width: 100%;
+	margin-right:40px;
+}
+#about{
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #3693D6;
+	height: 563px;
+	padding:0;
+}
+#about h2{
+	padding-top:90px;
+	margin:0 auto;
+}
+h2{
+	font-size: 52px;
+	font-style: semi-bold;
+	text-align: center;
+	font-family: "Montserrat",sans-serif;
+}
+p{
+	font-size: 42px;
+	margin-left: 200px;
+    margin-right: 200px;
+	margin-top:55px;
+	font-family: "Montserrat",sans-serif;
+}
+.ourwork h2{
+	color: #3693D6;
+}
+.ourwork{
+	margin-left: 200px;
+    margin-right: 200px;
+}
+#img1{
+	width: 280px;
+	height: 292px;
+}
+#img2{
+	width: 563px;
+	height: 292px;
+}
+#img3,#img4,#img5{
+	width: 280px;
+	height: 292px;
+}
+.testimonial h2{
+	color: #3693D6;
+	text-align: center;
+	font-family: "Montserrat",sans-serif;
+}
+#img6{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 50%;
+  border-radius:50%;
+}
+
+.testimonial p{
+	color: #3693D6;
+	text-align: center;
+	font-size:32px;
+}
+.username p{
+	font-size:42px;
+}
