@@ -1,7 +1,11 @@
+body{
+	margin:0;
+}
 
 #banner{
-	background-image:url("C:/Users/J P/Documents/Cuelogic/images/hero_image.png"); 
+	background-image:url("../images/hero_image.png"); 
 	height:657px;
+	
 }
 nav{
 	height:136px;
@@ -9,11 +13,12 @@ nav{
 	text-align: right;
 	font-family: "Montserrat",sans-serif;
 	padding: 30px 30px 0px 30px;
+	margin:0;
 }
 #img_logo{
 	float:left;
 }
-ul li{
+nav ul li{
 	display: inline-block;
 	width:10%;
 	text-align: center;
@@ -46,6 +51,7 @@ button{
 	background-color: #3693D6;
 	height: 563px;
 	padding:0;
+
 }
 #about h2{
 	padding-top:90px;
@@ -66,10 +72,10 @@ p{
 }
 .ourwork h2{
 	color: #3693D6;
+	margin-top:100px;
 }
 .ourwork{
-	margin-left: 200px;
-    margin-right: 200px;
+	margin: 0px 200px 0px;
 }
 #img1{
 	width: 279px;
@@ -91,6 +97,7 @@ p{
 	color: #3693D6;
 	text-align: center;
 	font-family: "Montserrat",sans-serif;
+	margin-top:100px;
 }
 #img6{
   display: block;
@@ -105,7 +112,37 @@ p{
 	color: #3693D6;
 	text-align: center;
 	font-size:32px;
+	padding-bottom:20px;
 }
 .username p{
 	font-size:42px;
+}
+.dot{
+	height: 25px;
+	width: 25px;
+	border-radius:50%;
+	display: inline-block;
+	background-color:#E2E2E2;
+}
+.dot:hover{
+		background-color:#9BC0FF;
+}
+.card{
+	height:754px;
+	background-color:#3693D6;
+	margin-top:100px;
+}
+.sec{
+	width:336px;
+	height:554px;
+	background-color:white;
+	display:inline-block;
+	float:center;
+}
+
+.sec p{
+	font-size:18px;
+	float:left;
+	padding-right:20px;
+	width:336px;
 }
