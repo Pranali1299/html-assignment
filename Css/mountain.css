@@ -38,7 +38,7 @@ nav ul li{
 	width: 12%;
 	font-family: "Montserrat",sans-serif;
 	float:right;
-	margin-top:25%;
+	margin-top:350px;
 }
 button{
 	border-radius: 45px;
@@ -79,15 +79,15 @@ p{
 	margin: 0px 200px 0px;
 }
 #img1{
-	width: 279px;
+	width: 260px;
 	height: 293px;
 }
 #img2{
-	width: 562px;
+	width: 522px;
 	height: 293px;
 }
 #img3,#img4,#img5{
-	width: 279px;
+	width: 260px;
 	height: 293px;
 }
 table{
@@ -104,8 +104,7 @@ table{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  height: 50%;
+ 
   border-radius:50%;
 }
 
