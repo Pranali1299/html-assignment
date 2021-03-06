@@ -1,5 +1,6 @@
 body{
 	margin:0;
+	width:devide-width;
 }
 
 #banner{
@@ -89,9 +90,9 @@ p{
 	width: 279px;
 	height: 293px;
 }
-#img5{
-	width: 279px;
-	height: 293px;
+table{
+	margin-left: auto; 
+	margin-right: auto;
 }
 .testimonial h2{
 	color: #3693D6;
@@ -139,10 +140,10 @@ p{
 	display:inline-block;
 	float:center;
 }
-
 .sec p{
 	font-size:18px;
 	float:left;
 	padding-right:20px;
 	width:336px;
 }
+
