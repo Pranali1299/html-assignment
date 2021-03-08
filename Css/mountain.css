@@ -244,8 +244,10 @@ input{
 	background-color:#3693D6;
 }
 table.infotable{
-  margin-left: 50px ;
+  margin-left: auto;
+  margin-right:auto;
   width:1200px;
+  padding-top:60px;
 }
 
 .infotable tr, .infotable td{
