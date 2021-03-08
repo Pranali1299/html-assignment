@@ -135,10 +135,12 @@ p{
 	height:754px;
 	background-color:#3693D6;
 	margin-top:100px;
+	
 }
 .cardalign{
   margin: auto;
   width: 90%;
+  
   
 }
 
@@ -152,7 +154,7 @@ p{
 	display:inline-block;
 	border-radius:25px;
 	color:#29313E;
-	
+	box-shadow: 10px 10px #00000029;
 }
 
 
@@ -222,6 +224,7 @@ table{
 	width:870px;
 }
 #fmsg{
+	
 	height:251px;
 }
 input{
@@ -230,6 +233,7 @@ input{
 	font-size:18px;
 	font-family: "Montserrat";
 	padding-left:15px;
+	vertical-align:top;
 }
 #submitbtn{
 	width:200px;
