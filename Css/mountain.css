@@ -81,14 +81,20 @@ p{
 	color: #3693D6;
 	margin-top:100px;
 }
+
 #img2{
-	width: 582px;
-	height: 293px;
+	width: 504px;
+	height: 250px;
 }
 #img1,#img3,#img4,#img5{
-	width: 290px;
-	height: 293px;
+	width: 250px;
+	height: 250px;
 }
+.gallery {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*testimonial*/
 .testimonial h2{
 	color: #3693D6;
 	text-align: center;
