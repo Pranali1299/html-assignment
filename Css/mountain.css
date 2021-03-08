@@ -9,8 +9,13 @@ body{
 	background-image:url("../images/hero_image.png"); 
 	height:657px;
 }
-nav{
+header{
 	height:136px;
+	position:fixed;
+	width:100%;
+}
+
+nav{
 	font-size: 22px;
 	text-align: right;
 	font-family: "Montserrat";
@@ -38,7 +43,7 @@ nav ul li{
 	background-color:#3693D6;
 	width: 12%;
 	float:right;
-	margin-top:350px;
+	margin-top:500px;
 }
 button{
 	border-radius: 45px;
