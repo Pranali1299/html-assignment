@@ -3,16 +3,17 @@ body{
 	width:devide-width;
 }
 
+/*1-Header n banner*/
+
 #banner{
 	background-image:url("../images/hero_image.png"); 
 	height:657px;
-	
 }
 nav{
 	height:136px;
 	font-size: 22px;
 	text-align: right;
-	font-family: "Montserrat",sans-serif;
+	font-family: "Montserrat";
 	padding: 30px 30px 0px 30px;
 	margin:0;
 }
@@ -36,7 +37,6 @@ nav ul li{
 	color: #FFFFFF;
 	background-color:#3693D6;
 	width: 12%;
-	font-family: "Montserrat",sans-serif;
 	float:right;
 	margin-top:350px;
 }
@@ -45,14 +45,16 @@ button{
 	border: none;
 	width: 100%;
 	margin-right:40px;
+	font-family: "Montserrat";
 }
+
+/*About*/
 #about{
 	text-align: center;
 	color: #FFFFFF;
 	background-color: #3693D6;
 	height: 563px;
 	padding:0;
-
 }
 #about h2{
 	padding-top:90px;
@@ -62,49 +64,42 @@ h2{
 	font-size: 52px;
 	font-style: semi-bold;
 	text-align: center;
-	font-family: "Montserrat",sans-serif;
+	font-family: "Montserrat";
 }
 p{
 	font-size: 42px;
 	margin-left: 200px;
     margin-right: 200px;
+	display: block;
 	margin-top:55px;
-	font-family: "Montserrat",sans-serif;
+	font-family: "Montserrat";
 }
+
+/*Our Work*/
 .ourwork h2{
 	color: #3693D6;
 	margin-top:100px;
 }
-.ourwork{
-	margin: 0px 200px 0px;
-}
-#img1{
-	width: 260px;
-	height: 293px;
-}
+
 #img2{
-	width: 522px;
+	width: 582px;
 	height: 293px;
 }
-#img3,#img4,#img5{
-	width: 260px;
+#img1,#img3,#img4,#img5{
+	width: 290px;
 	height: 293px;
 }
-table{
-	margin-left: auto; 
-	margin-right: auto;
-}
+
 .testimonial h2{
 	color: #3693D6;
 	text-align: center;
-	font-family: "Montserrat",sans-serif;
+	font-family: "Montserrat";
 	margin-top:100px;
 }
 #img6{
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
   border-radius:50%;
 }
 
@@ -117,6 +112,8 @@ table{
 .username p{
 	font-size:42px;
 }
+
+/*indicator*/
 .dot{
 	height: 25px;
 	width: 25px;
@@ -127,22 +124,147 @@ table{
 .dot:hover{
 		background-color:#9BC0FF;
 }
+
+/*Cards*/
 .card{
 	height:754px;
 	background-color:#3693D6;
 	margin-top:100px;
 }
+.cardalign{
+  margin: auto;
+  width: 90%;
+  
+}
+
 .sec{
 	width:336px;
 	height:554px;
 	background-color:white;
+	margin-top:100px;
+	margin-right:8px;
+	margin-left:8px;
 	display:inline-block;
-	float:center;
+	border-radius:25px;
+	color:#29313E;
+	
+}
+
+
+.cardimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	padding:30px;
+}
+
+#card1{
+	margin-left:50px;
 }
 .sec p{
 	font-size:18px;
-	float:left;
-	padding-right:20px;
-	width:336px;
+	font-family:"Lato";
+}
+.card div{
+	display:inline-block;
+}
+.cardalign p{
+	display: block;
+	margin:0;
+	text-align:center;
+	padding:25px;
+}
+#arrow1{
+	margin-left:35px;
+	margin-bottom:250px;
+}
+#arrow2{
+	margin-bottom:250px;
+}
+.card-heading p{
+	font-size:30px;
+	font-style:bold;
+	margin-left:40px;
+}
+div .card-content{
+	margin:0 auto;
 }
 
+.card-content p{
+	font-size:24px;
+	margin:0;
+}
+.card-end p{
+	font-size:24px;
+	color:#3693D6;
+	margin-left:70px;
+}
+
+/*Message Form*/
+.msg_form{
+	margin-top:100px;
+}
+#formtitle{
+	font-size:40px;
+	margin-right:450px;
+	color:#29313E;
+}
+#fname, #fphone, #femail{
+	height:60px;
+}
+table{
+	width:870px;
+}
+#fmsg{
+	height:251px;
+}
+input{
+	width:400px;
+	border-radius:7px;
+	font-size:18px;
+	font-family: "Montserrat";
+	padding-left:15px;
+}
+#submitbtn{
+	width:200px;
+	font-size:25px;
+	height:68px;
+	background-color:#3693D6;
+	color:#FFFFFF;
+}
+.msg_form td{
+	padding:15px;
+}
+
+/*footer*/
+.footer{
+	margin-top:100px;
+	height:300px;
+	background-color:#3693D6;
+}
+table.infotable{
+  margin-left: 50px ;
+  width:1200px;
+}
+
+.infotable tr, .infotable td{
+	color:#FFFFFF;
+	padding: 10px;
+	margin-top:100px;
+	font-family: "Montserrat";
+}
+.tableheading td{
+	font-size:32px;
+	text-align:left;
+	
+}
+.info td{
+	font-size:22px;
+}
+#img_logo2{
+	
+}
+.icons img{
+	margin-left:30px;
+}

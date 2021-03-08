@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
 	<title>mountain</title>
@@ -14,7 +14,7 @@
 	<div id="banner">
 		<header>
 			<nav>
-			<img src="images/logo.png" id="img_logo"> 
+			<img src="images/logo.png" id="img_logo" alt="Logo"> 
 			<ul>
 				<li>Home</li>
 				<li>About</li>
@@ -22,7 +22,7 @@
 				<li><button type="button" id="small_btn">Say Hello!</button></li>
 			</ul>
 			</nav>
-			<span><button type="button" id="large_btn">Our Work</button></span>
+			<button type="button" id="large_btn">Our Work</button></span>
 		</header>
 		
 	</div>
@@ -37,31 +37,23 @@
 	
 	<div class="ourwork">
 		<h2>Our Work</h2>
-		<table>
+		<table align="center">
 			<tr>
-				<td><img src="images/image-1.png" id="img1"></td>
-				<td colspan="2"><img src="images/image-2.png" id="img2"></td>
+				<td><img src="images/image-1.png" id="img1" alt="OurImage-img1"></td>
+				<td colspan="2"><img src="images/image-2.png" id="img2" alt="OurImage-img2"></td>
 				
 			</tr>
 			<tr>
-				<td><img src="images/image-3.png" id="img3"></td>
-				<td><img src="images/image-4.png" id="img4"></td>
-				<td><img src="images/image-5.png" id="img5"></td>
+				<td><img src="images/image-3.png" id="img3" alt="OurImage-img3"></td>
+				<td><img src="images/image-4.png" id="img4" alt="OurImage-img4"></td>
+				<td><img src="images/image-5.png" id="img5" alt="OurImage-img5"></td>
 			</tr>
 		</table>
-		<!--
-		<img src="images/image-1.png" id="img1">
-		<img src="images/image-2.png" id="img2">
-		<img src="images/image-3.png" id="img3">
-		<img src="images/image-4.png" id="img4">
-		<img src="images/image-5.png" id="img5">
-		-->
-		
 	</div>
 	
 	<div class="testimonial">
 		<h2>Testimonial</h2>
-		<img src="images/user-1.png" id="img6">
+		<img src="images/user-1.png" id="img6" alt="testimonial user">
 		<div class="username">
 			<p>carolyn</p>
 		</div>
@@ -75,41 +67,125 @@
 		<span class="dot"></span>
 		</div>
 	</div>
-	<!--
+	
+
+	
 	<div class="card">
+		<div>
+			<img src="images/arrow1.png" id="arrow1" alt="arrow">
+		</div>
+		<div class="cardalign">
+			<section class="sec" id="card1"> 
+				<img src="images/icon-1.png" class="cardimg" alt="card-icon">
+				
+				<div class="card-heading">
+					<p>Reduced Cost</p>
+				</div>
+				<div class="card-content">
+					<p>Our unique wireless technology can
+					   provide substantial cost benifits when compared</p>
+				</div>
+				<div class="card-end">
+					<p>Read More</p>
+				</div>
+			</section>
+			<section class="sec"> 
+				<img src="images/icon-1.png" class="cardimg" alt="card-icon">
+				<div class="card-heading">
+					<p>Reduced Cost</p>
+				</div>
+				<div class="card-content">
+					<p>Our unique wireless technology can
+					   provide substantial cost benifits when compared</p>
+				</div>
+				<div class="card-end">
+					<p>Read More</p>
+				</div>
+			</section>
+			<section class="sec" id="card3"> 
+				<img src="images/icon-1.png" class="cardimg" alt="card-icon">
+				<div class="card-heading">
+					<p>Reduced Cost</p>
+				</div>
+				<div class="card-content">
+					<p>Our unique wireless technology can
+					   provide substantial cost benifits when compared</p>
+				</div>
+				<div class="card-end">
+					<p>Read More</p>
+				</div>
+				  
+			</section>
+		</div>
+		<div>
+			<img src="images/arrow.png" id="arrow2" alt="arrow">
+		</div>
+	</div>
+	
+	
+	<!--
+	<div class="msgform">
 		
-			<div class="sec"> 
-				<img src="images/icon-1.png">
-				<p style="text-align=center">Reduced Cost</p>
-				<p>Our unique wireless technology can
-				   provide substantial cost benifits when compared
-				   Read More</p>
-			</div>
-			<div class="sec"> 
-				<img src="images/icon-1.png">
-				<p>Reduced Cost</p>
-				<p>Our unique wireless technology can
-				   provide substantial cost benifits when compared
-				   Read More</p>
-			</div>
-			<div class="sec"> 
-				<img src="images/icon-1.png">
-				<p>Reduced Cost</p>
-				<p>Our unique wireless technology can
-				   provide substantial cost benifits when compared
-				   Read More</p>
-			</div>
-			<div class="sec"> 
-				<img src="images/icon-1.png">
-				<p>Reduced Cost</p>
-				<p>Our unique wireless technology can
-				   provide substantial cost benifits when compared
-				   Read More</p>
-			</div>
-		
+		<form>	
+			<input type="text" id="fmsg">
+			<input type="text" id="fname"><br>
+			<input type="text" id="fphone"><br>
+			<input type="text" id="femail">
+			
+		</form>	
 	</div>
 	-->
+
 	
+	<div class="msg_form">
+	
+		<h2 id="formtitle">Send Me a Message</h2>
+		<table align="center" id="msgtable">
+			<tr>
+				<td><input type="text" id="fname" placeholder="Name"></td>
+				<td rowspan="3"><input type="text" id="fmsg" placeholder="Message"></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="fphone" placeholder="Phone"></td>
+				
+			</tr>
+			
+			<tr>
+				<td><input type="femail" id="femail" placeholder="Email"></td>
+			</tr>
+			
+			<tr>
+				<td colspan="2"><button type="button" id="submitbtn">Send Message</button></td>
+			</tr>
+		
+		</table>
+	</div>
+	
+	<div class="footer">
+	<!--	<img src="images/logo.png" id="img_logo2" alt="Logo">  -->
+ 	
+	
+	<table class="infotable">
+		<tr class="tableheading">
+			<td rowspan="2" style="width:200px;"><img src="images/logo.png" id="img_logo2" alt="Logo"></td>
+			<td style="width:400px;">Location</td>
+			<td>Email</td>
+			<td>Phone</td>
+			<td rowspan="2" style="width:400px;">
+				<div class="icons">
+						<img src="images/fb_icon.png" id="" alt="fbLogo">
+						<img src="images/insta_icon.png" id="" alt="instaLogo">
+						<img src="images/youtube_icon.png" id="" alt="youtubeLogo">
+				</div>
+			</td>
+		</tr>
+		<tr class="info">
+			<td>Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisl-GD 1506</td>
+			<td>jessica.lee@mail.com</td>
+			<td style="width:200px;">(859)749-1380</td>
+		</tr>
+	</table>
+	</div>
 <body>
 
 </html>
