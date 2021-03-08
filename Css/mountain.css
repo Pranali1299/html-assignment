@@ -1,10 +1,8 @@
 body{
 	margin:0;
-	width:devide-width;
 }
 
 /*1-Header n banner*/
-
 #banner{
 	background-image:url("../images/hero_image.png"); 
 	height:657px;
@@ -14,13 +12,11 @@ header{
 	position:fixed;
 	width:100%;
 }
-
 nav{
 	font-size: 22px;
 	text-align: right;
 	font-family: "Montserrat";
 	padding: 30px 30px 0px 30px;
-	margin:0;
 }
 #img_logo{
 	float:left;
@@ -85,7 +81,6 @@ p{
 	color: #3693D6;
 	margin-top:100px;
 }
-
 #img2{
 	width: 582px;
 	height: 293px;
@@ -94,7 +89,6 @@ p{
 	width: 290px;
 	height: 293px;
 }
-
 .testimonial h2{
 	color: #3693D6;
 	text-align: center;
@@ -103,11 +97,9 @@ p{
 }
 #img6{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin:0px auto 0px;
   border-radius:50%;
 }
-
 .testimonial p{
 	color: #3693D6;
 	text-align: center;
@@ -135,37 +127,25 @@ p{
 	height:754px;
 	background-color:#3693D6;
 	margin-top:100px;
-	
 }
 .cardalign{
-  margin: auto;
   width: 90%;
-  
-  
 }
-
 .sec{
 	width:336px;
 	height:554px;
 	background-color:white;
-	margin-top:100px;
-	margin-right:8px;
-	margin-left:8px;
+	margin:100px 8px 0px;
 	display:inline-block;
 	border-radius:25px;
 	color:#29313E;
 	box-shadow: 10px 10px #00000029;
 }
-
-
 .cardimg{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top:20px;
+	margin:20px auto 0px;
 	padding:30px;
 }
-
 #card1{
 	margin-left:50px;
 }
@@ -177,27 +157,21 @@ p{
 	display:inline-block;
 }
 .cardalign p{
-	display: block;
 	margin:0;
 	text-align:center;
 	padding:25px;
 }
 #arrow1{
-	margin-left:35px;
-	margin-bottom:250px;
+	margin:0px 0px 250px 25px;
 }
 #arrow2{
-	margin-bottom:250px;
+	margin:0px 0px 250px 25px;
 }
 .card-heading p{
 	font-size:30px;
 	font-style:bold;
 	margin-left:40px;
 }
-div .card-content{
-	margin:0 auto;
-}
-
 .card-content p{
 	font-size:24px;
 	margin:0;
@@ -220,11 +194,7 @@ div .card-content{
 #fname, #fphone, #femail{
 	height:60px;
 }
-table{
-	width:870px;
-}
 #fmsg{
-	
 	height:251px;
 }
 input{
@@ -233,7 +203,6 @@ input{
 	font-size:18px;
 	font-family: "Montserrat";
 	padding-left:15px;
-	vertical-align:top;
 }
 #submitbtn{
 	width:200px;
@@ -253,12 +222,10 @@ input{
 	background-color:#3693D6;
 }
 table.infotable{
-  margin-left: auto;
-  margin-right:auto;
+  margin: 0px auto 0px;
   width:1200px;
   padding-top:60px;
 }
-
 .infotable tr, .infotable td{
 	color:#FFFFFF;
 	padding: 10px;
@@ -267,14 +234,10 @@ table.infotable{
 }
 .tableheading td{
 	font-size:32px;
-	text-align:left;
-	
+	text-align:left;	
 }
 .info td{
 	font-size:22px;
-}
-#img_logo2{
-	
 }
 .icons img{
 	margin-left:30px;
