@@ -202,8 +202,9 @@ p{
 }
 #fmsg{
 	height:251px;
+	border: solid #29313E;
 }
-input{
+input,#fmsg{
 	width:400px;
 	border-radius:7px;
 	font-size:18px;
