@@ -1,110 +1,133 @@
 body{
 	margin:0;
 }
-
-/*1-Header n banner*/
-#banner{
+.container{
+	width:1280px;
+	margin:auto 0;
+}
+.banner{
 	background-image:url("../images/hero_image.png"); 
 	height:657px;
+	background-repeat:no-repeat;
 }
 header{
 	height:136px;
 	position:fixed;
 	width:100%;
+	z-index:1;
+	background-color: #3693D6;
 }
 nav{
 	font-size: 22px;
 	text-align: right;
 	font-family: "Montserrat";
-	padding: 30px 30px 0px 30px;
+	padding:20px;
 }
 #img_logo{
 	float:left;
 }
 nav ul li{
 	display: inline-block;
-	width:10%;
 	text-align: center;
+	margin:20px;
 	color: #FFFFFF;
 }
 #small_btn{
 	height: 54px;
+	width:150px;
 	font-size: 22px;
 	color: #3693D6;
 }
 #large_btn{
 	height: 68px;
+	width:200px;
 	font-size: 25px;
 	color: #FFFFFF;
 	background-color:#3693D6;
-	width: 12%;
 	float:right;
-	margin-top:500px;
+}
+div.absolute {
+  position: absolute;
+  right:0;
+  top: 500px;
+  padding:20px;
 }
 button{
 	border-radius: 45px;
 	border: none;
-	width: 100%;
-	margin-right:40px;
 	font-family: "Montserrat";
 }
 
 /*About*/
-#about{
-	text-align: center;
-	color: #FFFFFF;
+.about{
 	background-color: #3693D6;
-	height: 563px;
-	padding:0;
+	color:#FFFFFF;
 }
-#about h2{
-	padding-top:90px;
-	margin:0 auto;
+.about .container{
+	margin:0px auto 0px;
 }
-h2{
+.about h2{
 	font-size: 52px;
 	font-style: semi-bold;
 	text-align: center;
 	font-family: "Montserrat";
+	margin:0 auto;
+	padding-top:100px;
 }
-p{
+.about p{
 	font-size: 42px;
-	margin-left: 200px;
-    margin-right: 200px;
-	display: block;
-	margin-top:55px;
 	font-family: "Montserrat";
+	padding-bottom:100px;
+	text-align: center;
+}
+.aboutpara{
+	width:1268px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-/*Our Work*/
+
+/*ourwork*/
+.ourwork .container{
+	margin:0px auto 0px;
+}
 .ourwork h2{
 	color: #3693D6;
 	margin-top:100px;
+	font-size:52px;
+	text-align:center;
 }
-
+.gallery{
+	width:1268px;
+	margin:0px auto 0px;
+	padding-bottom:100px;
+}
 #img2{
-	width: 504px;
-	height: 250px;
+	width: 502px;
+	height: 300px;
 }
 #img1,#img3,#img4,#img5{
 	width: 250px;
-	height: 250px;
+	height: 300px;
 }
-.gallery {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 /*testimonial*/
+.testimonial .container{
+	margin:0px auto 0px;
+}
 .testimonial h2{
 	color: #3693D6;
 	text-align: center;
 	font-family: "Montserrat";
-	margin-top:100px;
+	font-size:52px;
 }
 #img6{
   display: block;
   margin:0px auto 0px;
   border-radius:50%;
+}
+p,h2{
+	font-family: "Montserrat";
 }
 .testimonial p{
 	color: #3693D6;
@@ -139,9 +162,8 @@ p{
 }
 .sec{
 	width:336px;
-	height:554px;
 	background-color:white;
-	margin:100px 8px 0px;
+	margin:100px 10px 100px;
 	display:inline-block;
 	border-radius:25px;
 	color:#29313E;
@@ -152,9 +174,7 @@ p{
 	margin:20px auto 0px;
 	padding:30px;
 }
-#card1{
-	margin-left:50px;
-}
+
 .sec p{
 	font-size:18px;
 	font-family:"Lato";
@@ -168,10 +188,10 @@ p{
 	padding:25px;
 }
 #arrow1{
-	margin:0px 0px 250px 25px;
+	margin:0px 0px 220px 25px;
 }
 #arrow2{
-	margin:0px 0px 250px 25px;
+	margin:0px 0px 220px 25px;
 }
 .card-heading p{
 	font-size:30px;
@@ -189,63 +209,87 @@ p{
 }
 
 /*Message Form*/
-.msg_form{
-	margin-top:100px;
+.msg_form .container{
+	margin:0px auto 0px;
+}
+.msg_form {
+	padding-top:100px;
+	margin: 0px auto 0px;
+}
+.msg_form h2{
+	padding-left:200px;
 }
 #formtitle{
 	font-size:40px;
-	margin-right:450px;
 	color:#29313E;
+}
+.right{
+	width:50%;
+	float:right;
+}
+.left{
+	width:50%;
+	padding-left:200px;
 }
 #fname, #fphone, #femail{
 	height:60px;
+	width:400px;
 }
 #fmsg{
-	height:251px;
-	border: solid #29313E;
+	
+	margin:15px 0px 0px 20px;
 }
-input,#fmsg{
-	width:400px;
-	border-radius:7px;
-	font-size:18px;
-	font-family: "Montserrat";
-	padding-left:15px;
+textarea{
+	height:247px;
+}
+.msgarea{
+	width:1280px;
 }
 #submitbtn{
 	width:200px;
 	font-size:25px;
 	height:68px;
+	margin-top:50px;
 	background-color:#3693D6;
 	color:#FFFFFF;
-}
-.msg_form td{
-	padding:15px;
 }
 
-/*footer*/
+input,#fmsg{
+	width:400px;
+	border-radius:5px;
+	font-size:18px;
+	font-family: "Montserrat";
+	padding-left:15px;
+	border: 1px solid #151D41;
+}
+.left input{
+	margin:15px auto 15px;
+}
+
+
+/*Footer*/
 .footer{
 	margin-top:100px;
-	height:300px;
 	background-color:#3693D6;
 }
-table.infotable{
-  margin: 0px auto 0px;
-  width:1200px;
-  padding-top:60px;
+.footer .container{
+	margin:0px auto 0px;
 }
-.infotable tr, .infotable td{
-	color:#FFFFFF;
-	padding: 10px;
-	margin-top:100px;
-	font-family: "Montserrat";
+.icon{
+	margin:0 10px 0;
 }
-.tableheading td{
+.footer h2{
 	font-size:32px;
-	text-align:left;	
 }
-.info td{
+.footer p{
 	font-size:22px;
 }
-.icons img{
-	margin-left:30px;
+.footersection{
+	display: inline-block;
+	width:240px;
+	color:white;
+	padding-top:20px;
+	padding-left:10px;
+	padding-bottom:20px;
 }
+
