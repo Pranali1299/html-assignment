@@ -15,7 +15,7 @@ header{
 	position:fixed;
 	width:100%;
 	z-index:1;
-	background-color: #3693D6;
+	background-color:rgb(138,192,229);
 }
 nav{
 	font-size: 22px;
@@ -163,7 +163,7 @@ p,h2{
 .sec{
 	width:336px;
 	background-color:white;
-	margin:100px 10px 100px;
+	margin:100px 22px 100px;
 	display:inline-block;
 	border-radius:25px;
 	color:#29313E;
