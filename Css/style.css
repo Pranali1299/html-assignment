@@ -37,6 +37,7 @@ nav ul li{
 	width:150px;
 	font-size: 22px;
 	color: #3693D6;
+	cursor:pointer;
 }
 #large_btn{
 	height: 68px;
@@ -45,6 +46,7 @@ nav ul li{
 	color: #FFFFFF;
 	background-color:#3693D6;
 	float:right;
+	cursor:pointer;
 }
 div.absolute {
   position: absolute;
@@ -153,60 +155,47 @@ p,h2{
 
 /*Cards*/
 .card{
-	height:754px;
 	background-color:#3693D6;
 	margin-top:100px;
 }
-.cardalign{
-  width: 90%;
-}
+.card .container{
+	margin:0px auto 0px;
+} 
 .sec{
-	width:336px;
-	background-color:white;
-	margin:100px 22px 100px;
 	display:inline-block;
+	margin:70px 18px 70px;
+	vertical-align: middle;
+}
+.sec .card1{
+	width:336px;
 	border-radius:25px;
-	color:#29313E;
-	box-shadow: 10px 10px #00000029;
+	background-color:white;
 }
 .cardimg{
 	display: block;
 	margin:20px auto 0px;
 	padding:30px;
 }
-
 .sec p{
 	font-size:18px;
 	font-family:"Lato";
-}
-.card div{
-	display:inline-block;
-}
-.cardalign p{
-	margin:0;
-	text-align:center;
-	padding:25px;
-}
-#arrow1{
-	margin:0px 0px 220px 25px;
-}
-#arrow2{
-	margin:0px 0px 220px 25px;
+	padding:15px;
 }
 .card-heading p{
 	font-size:30px;
 	font-style:bold;
-	margin-left:40px;
+	text-align:center;
 }
 .card-content p{
 	font-size:24px;
-	margin:0;
+	text-align:center;
 }
 .card-end p{
 	font-size:24px;
 	color:#3693D6;
-	margin-left:70px;
+	text-align:center;
 }
+
 
 /*Message Form*/
 .msg_form .container{
@@ -292,4 +281,3 @@ input,#fmsg{
 	padding-left:10px;
 	padding-bottom:20px;
 }
-
