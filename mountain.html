@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <head>
 	<title>mountain</title>
@@ -11,14 +11,14 @@
 
 <body>
 	<section class="banner">
-		<div class="container">
+		<div>
 			<header>
 				<nav>
 					<a href="#"><img src="images/logo.png" id="img_logo" alt="Logo"/></a>
 					<ul>
 						<a href="#"><li>Home</li></a>
-						<a href="#"><li>About</li></a>
-						<a href="#"><li>Contact</li></a>
+						<a href="#aboutme"><li>About</li></a>
+						<a href="#contact"><li>Contact</li></a>
 						<li><button type="button" id="small_btn">Say Hello!</button></li>
 					</ul>
 				</nav>
@@ -29,7 +29,7 @@
 		</div>
 	</section>
 	
-	<section class="about">
+	<section class="about" id="aboutme">
 		<div class="container">
 				<h2>About me</h2>
 				<div class="aboutpara">
@@ -87,7 +87,7 @@
 	<section class="card">
 			<div class="container">
 				<div class="sec">
-					<img src="images/arrow1.png" class="arrow" alt="arrow"/>
+					<img src="images/arrow1.png" class="arrow" alt="arrow" id="a1"/>
 				</div>
 				<div class="sec">
 					<div class="card1">
@@ -135,7 +135,7 @@
 					</div>
 				</div>
 				<div class="sec">
-					<img src="images/arrow.png" class="arrow" alt="arrow"/>
+					<img src="images/arrow.png" class="arrow" alt="arrow" id="a2"/>
 				</div>
 			</div>
 	</section>
@@ -159,25 +159,43 @@
 		</div>
 	</section>
 	
-	<section class="footer">
+	<section class="footer" id="contact">
 		<div class="container">
-			<div class="footersection" class="footerlogo">
+			<div class="footersection">
+				<div class="ic">
 				<img src="images/logo.png" id="img_logo2" alt="Logo" class="icon"/>
-			</div>
-			<div class="footersection" class="location">
-				<h2>Location</h2><p>Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisl-GD 1506</p>
-			</div>
-			<div class="footersection" class="mail">
-				<h2>Email</h2><p>jessica.lee@mail.com</br></br></br></br></p>
-			</div>
-			<div class="footersection" class="phone">
-				<h2>Phone</h2><p>(859)749-1380</br></br></br></br><p>
+				</div>
 			</div>
 			<div class="footersection">
+				<div class="footersection2">
+					<div class="footersection1">
+						<div class="location">
+						<h2>Location</h2><p>Fusce at nisi eget dolor rhoncus facilisis. Mauris ante nisl-GD 1506</p>
+						</div>
+					</div>
+					<div class="footersection1">
+						<div class="mail">
+						<h2>Email</h2><p>jessica.lee@mail.com</p>
+						</div>
+					</div>
+					<div class="footersection1">
+						<div class="phone">
+						<h2>Phone</h2><p>(859)749-1380</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footersection">
+					<div class="ic">
 					<div class="icons">
 						<img src="images/fb_icon.png" id="" alt="fbLogo" class="icon"/>
+					</div>
+					<div class="icons">
 						<img src="images/insta_icon.png" id="" alt="instaLogo" class="icon"/>
-						<img src="images/youtube_icon.png" id="" alt="youtubeLogo" class="icon"/></br></br></br>
+					</div>
+					<div class="icons">
+						<img src="images/youtube_icon.png" id="" alt="youtubeLogo" class="icon"/>
+					</div>
 					</div>
 			</div>
 		</div>

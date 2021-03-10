@@ -3,11 +3,13 @@ body{
 }
 .container{
 	width:1280px;
-	margin:auto 0;
+	margin:0;
 }
+
 .banner{
 	background-image:url("../images/hero_image.png"); 
 	height:657px;
+	background-size:cover;
 	background-repeat:no-repeat;
 }
 header{
@@ -171,6 +173,10 @@ p,h2{
 	border-radius:25px;
 	background-color:white;
 }
+.card1:hover{
+	cursor:pointer;
+	transform: scale(1.04);
+}
 .cardimg{
 	display: block;
 	margin:20px auto 0px;
@@ -179,7 +185,7 @@ p,h2{
 .sec p{
 	font-size:18px;
 	font-family:"Lato";
-	color:#29313E;
+	color:color:#29313E;
 	padding:15px;
 }
 .card-heading p{
@@ -196,7 +202,9 @@ p,h2{
 	color:#3693D6;
 	text-align:center;
 }
-
+#a1,#a2{
+	cursor:pointer;
+}
 
 /*Message Form*/
 .msg_form .container{
@@ -266,9 +274,6 @@ input,#fmsg{
 .footer .container{
 	margin:0px auto 0px;
 }
-.icon{
-	margin:0 10px 0;
-}
 .footer h2{
 	font-size:32px;
 }
@@ -277,9 +282,27 @@ input,#fmsg{
 }
 .footersection{
 	display: inline-block;
-	width:240px;
 	color:white;
-	padding-top:20px;
-	padding-left:10px;
-	padding-bottom:20px;
+	padding:50px 0px 50px 30px;
+	vertical-align:middle;
+}
+.footersection1{
+	display:inline-block;
+	vertical-align:top;
+}
+.footersection1{
+	padding-left:50px;
+}
+.location{
+	width:264px;
+}
+.mail{
+	width:234px;
+}
+.phone{
+	width:180px;
+}
+.icons{
+	display:inline-block;
+	padding:10px;
 }
