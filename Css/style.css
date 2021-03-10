@@ -179,6 +179,7 @@ p,h2{
 .sec p{
 	font-size:18px;
 	font-family:"Lato";
+	color:#29313E;
 	padding:15px;
 }
 .card-heading p{
@@ -241,6 +242,7 @@ textarea{
 	margin-top:50px;
 	background-color:#3693D6;
 	color:#FFFFFF;
+	cursor:pointer;
 }
 
 input,#fmsg{
