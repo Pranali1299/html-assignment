@@ -3,7 +3,7 @@ body{
 }
 .container{
 	width:1280px;
-	margin:0;
+	margin:0 auto;
 }
 
 .banner{
@@ -28,18 +28,24 @@ nav{
 #img_logo{
 	float:left;
 }
+#img_logo:hover{
+	transform:scale(1.05);
+}
 nav ul li{
 	display: inline-block;
 	text-align: center;
 	margin:20px;
 	color: #FFFFFF;
 }
+ul li:hover{
+	cursor:pointer;
+	transform:scale(1.15);
+}
 #small_btn{
 	height: 54px;
 	width:150px;
 	font-size: 22px;
 	color: #3693D6;
-	cursor:pointer;
 }
 #large_btn{
 	height: 68px;
@@ -48,7 +54,6 @@ nav ul li{
 	color: #FFFFFF;
 	background-color:#3693D6;
 	float:right;
-	cursor:pointer;
 }
 div.absolute {
   position: absolute;
@@ -61,14 +66,15 @@ button{
 	border: none;
 	font-family: "Montserrat";
 }
+button:hover{
+	cursor:pointer;
+	transform:scale(1.05);
+}
 
 /*About*/
 .about{
 	background-color: #3693D6;
 	color:#FFFFFF;
-}
-.about .container{
-	margin:0px auto 0px;
 }
 .about h2{
 	font-size: 52px;
@@ -92,9 +98,6 @@ button{
 
 
 /*ourwork*/
-.ourwork .container{
-	margin:0px auto 0px;
-}
 .ourwork h2{
 	color: #3693D6;
 	margin-top:100px;
@@ -102,8 +105,6 @@ button{
 	text-align:center;
 }
 .gallery{
-	width:1268px;
-	margin:0px auto 0px;
 	padding-bottom:100px;
 }
 #img2{
@@ -116,9 +117,6 @@ button{
 }
 
 /*testimonial*/
-.testimonial .container{
-	margin:0px auto 0px;
-}
 .testimonial h2{
 	color: #3693D6;
 	text-align: center;
@@ -152,7 +150,7 @@ p,h2{
 	background-color:#E2E2E2;
 }
 .dot:hover{
-		background-color:#9BC0FF;
+	background-color:#9BC0FF;
 }
 
 /*Cards*/
@@ -160,9 +158,6 @@ p,h2{
 	background-color:#3693D6;
 	margin-top:100px;
 }
-.card .container{
-	margin:0px auto 0px;
-} 
 .sec{
 	display:inline-block;
 	margin:70px 18px 70px;
@@ -207,12 +202,8 @@ p,h2{
 }
 
 /*Message Form*/
-.msg_form .container{
-	margin:0px auto 0px;
-}
 .msg_form {
 	padding-top:100px;
-	margin: 0px auto 0px;
 }
 .msg_form h2{
 	padding-left:200px;
@@ -234,14 +225,10 @@ p,h2{
 	width:400px;
 }
 #fmsg{
-	
 	margin:15px 0px 0px 20px;
 }
 textarea{
 	height:247px;
-}
-.msgarea{
-	width:1280px;
 }
 #submitbtn{
 	width:200px;
@@ -250,7 +237,6 @@ textarea{
 	margin-top:50px;
 	background-color:#3693D6;
 	color:#FFFFFF;
-	cursor:pointer;
 }
 
 input,#fmsg{
@@ -270,9 +256,6 @@ input,#fmsg{
 .footer{
 	margin-top:100px;
 	background-color:#3693D6;
-}
-.footer .container{
-	margin:0px auto 0px;
 }
 .footer h2{
 	font-size:32px;
@@ -305,4 +288,8 @@ input,#fmsg{
 .icons{
 	display:inline-block;
 	padding:10px;
+}
+.icon:hover{
+	cursor:pointer;
+	transform:scale(1.1);
 }
