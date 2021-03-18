@@ -63,7 +63,6 @@ button{
 .banner h2{
 	font-size:50px;
 	text-align:left;
-	margin:auto 0;
 	font-weight:bold;
 }
 .banner p{
@@ -94,7 +93,7 @@ button{
 }
 .cloths ul li{
 	display:inline-block;
-	margin:100px 10px 100px 10px;
+	margin:100px 10px 10px 10px;
 }
 .cloths li a{
 	color:#C7C7C7;
@@ -158,8 +157,11 @@ figure{
 	padding-right:25px;
 	padding-left:25px;
 }
+
 .card1 figure:hover .middle{
 	opacity: 1;
+	color:#FFFFFF;
+	font-weight:300;
 }
 .card1 figure:hover .product{
 	opacity: 0.8;
@@ -188,9 +190,6 @@ figure {
 }
 .imgproduct:hover:after {
     opacity:1;
-}
-.hat h2, .hat p{
-	color: white;
 }
 
 /* 2 Banners */
